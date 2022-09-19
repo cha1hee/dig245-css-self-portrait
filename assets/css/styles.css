@@ -1,2 +1,175 @@
-
 /* css */
+.background {
+  background-color: #268697;
+  width: 670px;
+  height: 700px;
+  z-index: -1;
+}
+
+.head {
+  z-index: 3;
+}
+
+
+.head1 {
+  background-color: #d8bfaa;
+  width: 242.78px;
+  height: 212.51px;
+  position: absolute;
+  top: 170px;
+  left: 170px;
+  border-radius: 700px;
+  transform: rotate(90deg);
+}
+.head2 {
+  background-color: #d8bfaa;
+  width: 220.79px;
+  height: 187.51px;
+  position: absolute;
+  top: 200px;
+  left: 220px;
+  border-radius: 100px 100px 600px 200px;
+  transform: rotate(-56.23deg);
+}
+.head3 {
+  background-color: #d8bfaa;
+  width: 216.48px;
+  height: 191.24px;
+  position: absolute;
+  top: 200px;
+  left: 170px;
+  border-radius: 200px 500px 100px 600px;
+  transform: rotate(23deg);
+}
+
+.face {
+  z-index: 4;
+}
+
+.eyespupil {
+  background-color: #40322e;
+  width: 17px;
+  height: 17px;
+  border-radius: 17px 17px;
+  position: absolute;
+}
+
+.eyeswhites {
+  background-color: #bbd0d0;
+  width: 35.03px;
+  height: 25.66px;
+  position: absolute;
+  border-radius: 100px 0;
+  transform: rotate(30.7deg);
+}
+
+.hair1 {
+  background-image: linear-gradient(#231709, #654321);
+  width: 245.78px;
+  height: 300.96px;
+  position: absolute;
+  border-radius: 200px 200px 30px 30px;
+  top: 130px;
+  left: 150px;
+  z-index: 1;
+}
+
+.nose {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid #918b73;
+  position: absolute;
+  top: 300px;
+  left: 330px;
+  transform: rotate(20deg);
+}
+
+.lips {
+  background-color: #e56d7e;
+  width: 35.03px;
+  height: 25.66px;
+  position: absolute;
+  top: 350px;
+  left: 320px;
+  border-radius: 100px 0;
+  transform: rotate(30.7deg);
+}
+
+.reyebrow {
+  background-color: #231709;
+  width: 50px;
+  height: 8px;
+  border-radius: 500px 50px 20px 0;
+  position: absolute;
+  top: 220px;
+  left: 230px;
+  transform: rotate(-10deg);
+}
+.leyebrow {
+  background-color: #231709;
+  width: 40px;
+  height: 8px;
+  border-radius: 20px 500px 50px 0;
+  position: absolute;
+  top: 220px;
+  left: 345px;
+  transform: rotate(7deg);
+}
+
+.body{
+  z-index: 2;
+}
+.shoulders{
+  background-color: #c4ad9a;
+  width: 450px;
+  height: 237px;
+  position: absolute;
+  border-radius: 150px 165px 0 0;
+  top: 420px;
+  left: 110px;
+}
+.neck {
+  background-color: #c4ad9a;
+  width: 131px;
+  height: 117px;
+  position: absolute;
+  top: 350px;
+  left: 250px;
+}
+
+.clothes {
+  z-index: 6;
+}
+.shirt {
+  background-color: #6699cc;
+  width: 320px;
+  height: 171px;
+  position: absolute;
+  border-radius: 71px;
+  top: 500px;
+  left: 165px;
+}
+.straps {
+  background-color: #6699cc;
+  width: 19px;
+  height: 152px;
+  position: absolute;
+  border-radius: 20px 20px 0 0 ;
+}
+
+.links {
+  position: absolute;
+  top: 740px;
+  left: 500px;
+}
+
+div {
+  display: flex;
+}
+
+a {
+  font-size: 28px;
+  color: pink;
+}
