@@ -9,6 +9,8 @@ function mousemove(event){
 }
 window.addEventListener('click', mousemove);
 
+const matches = document.querySelectorAll("*")
+
 var bauhaus = `
 
 Staaatliches Bauhaus (1919-1933)
@@ -26,3 +28,4 @@ Staaatliches Bauhaus (1919-1933)
 `;
 
 console.log(bauhaus);
+console.log(matches);
